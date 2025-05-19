@@ -82,6 +82,20 @@ flowchart LR
     commit[Code Commit] --> build[Build & Test]
     build --> scan[Security Scan]
     scan --> package[Package Container]
+    
+    classDef blue fill:#e6f7ff,stroke:#1890ff,stroke-width:2px
+    classDef green fill:#f6ffed,stroke:#52c41a,stroke-width:2px
+    classDef orange fill:#fff7e6,stroke:#fa8c16,stroke-width:2px
+    classDef purple fill:#f9f0ff,stroke:#722ed1,stroke-width:2px
+    
+    class commit,build,scan blue
+    class package green
+```
+
+```mermaid
+flowchart LR
+    tag[commit version tag] --> build
+    build --> package[Container]
     package --> devdeploy[Deploy to Dev]
     devdeploy --> integration[Integration Tests]
     integration --> stagingdeploy[Deploy to Staging]
@@ -93,7 +107,7 @@ flowchart LR
     classDef orange fill:#fff7e6,stroke:#fa8c16,stroke-width:2px
     classDef purple fill:#f9f0ff,stroke:#722ed1,stroke-width:2px
     
-    class commit,build,scan blue
+    class tag,build,scan blue
     class package,devdeploy green
     class integration,stagingdeploy orange
     class load,proddeploy purple
