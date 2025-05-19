@@ -70,7 +70,7 @@ graph TD
 - Logging configuration
 ```
 
-**Infrastructure provisioning and lifecycle
+**Infrastructure provisioning and lifecycle:**
 - Terraform("Infrastructure as Code") implementation
     - Cluster provisioning
     - Dependent services provisioning
