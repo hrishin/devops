@@ -134,7 +134,7 @@ flowchart LR
 
 ```mermaid
 graph TD
-    A[Player Request] --> B{API Gateway}
+    A[Player Request] --> B{Gateway / Ingres}
     
     B --> C[Game Service Pod 1]
     B --> D[Game Service Pod 2]
