@@ -180,6 +180,7 @@ graph TD
 - On-call shadowing program
 - War Games - Chaos testing and Disaster recovery drills
 - Establish SLO and buy in SLA - Part 2(PM)
+- Review application and infra., backup policies in terms of systems to backup and retaintion policies
 
 **SRE:**
 - Runbooks for common scenarios
