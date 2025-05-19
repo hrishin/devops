@@ -70,6 +70,12 @@ graph TD
 - Logging configuration
 ```
 
+**Infrastructure provisioning and lifecycle
+- Terraform("Infrastructure as Code") implementation
+    - Cluster provisioning
+    - Dependent services provisioning
+- Associated lifecycle automation
+
 **CI/CD Pipeline:**
 ```mermaid
 flowchart LR
@@ -102,6 +108,8 @@ flowchart LR
 - Identify bottlenecks through distributed tracing
 - Optimize resource utilization
 - Test autoscaling policies
+- Introduce metrics and SLI
+- Establish SLO and buy in SLA - Part 1(Engineers/SRE)
 
 **Observability Stack:**
 - Application metrics with Prometheus
@@ -154,12 +162,13 @@ graph TD
 - Hands-on workshops vs. theoretical training
 - "Infrastructure as Code" paired programming sessions
 - On-call shadowing program
-- Gamified learning approach
+- War Games - Chaos testing
+- Establish SLO and buy in SLA - Part 2(PM)
 
-**Documentation:**
+**SRE:**
 - Runbooks for common scenarios
 - Troubleshooting guides
-- Architecture decision records
+- Architecture decision records(ADR)
 - Post-mortem templates
 
 ---
@@ -197,7 +206,7 @@ graph TD
 - Deployment frequency
 - Change lead time
 - MTTR (Mean Time To Recovery)
-- Team confidence surveys
+- Business metrics
 
 ---
 
@@ -213,7 +222,7 @@ graph TD
 - Monthly capability assessments
 - Technical debt reviews
 - New tooling evaluations
-- Cross-team knowledge sharing
+- Cross-team knowledge sharing - share learnings both side
 
 ---
 
