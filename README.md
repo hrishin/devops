@@ -125,6 +125,7 @@ flowchart LR
 - Test autoscaling policies
 - Introduce metrics and SLI
 - Establish SLO and buy in SLA - Part 1(Engineers/SRE)
+- Building policiesa roudn platform services and seperations of these services 
 
 **Observability Stack:**
 - Application metrics with Prometheus
