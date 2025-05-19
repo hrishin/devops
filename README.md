@@ -177,7 +177,7 @@ graph TD
 - Hands-on workshops vs. theoretical training
 - "Infrastructure as Code" paired programming sessions
 - On-call shadowing program
-- War Games - Chaos testing
+- War Games - Chaos testing and Disaster recovery drills
 - Establish SLO and buy in SLA - Part 2(PM)
 
 **SRE:**
