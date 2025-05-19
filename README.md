@@ -37,16 +37,17 @@ graph TD
 ## Phase 1: Discovery & Assessment
 
 **Key Activities:**
+- Understand internal Kubernetes and cloud platform**
 - Application architecture review sessions
 - Identify stateful vs. stateless components
 - Map external dependencies and data flows
 - Document configuration requirements
 - Establish initial performance baselines
 
+
 **Deliverables:**
-- Architecture diagram for Kubernetes deployment
+- Architecture diagram for Kubernetes deployment(ADR)
 - Infrastructure requirements document
-- Risk assessment report
 
 ---
 
