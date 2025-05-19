@@ -125,7 +125,7 @@ flowchart LR
 - Test autoscaling policies
 - Introduce metrics and SLI
 - Establish SLO and buy in SLA - Part 1(Engineers/SRE)
-- Building policiesa roudn platform services and seperations of these services 
+- Deploy per environment infra. service - sandbox env for Grafana, Loki
 
 **Observability Stack:**
 - Application metrics with Prometheus
@@ -180,7 +180,7 @@ graph TD
 - On-call shadowing program
 - War Games - Chaos testing and Disaster recovery drills
 - Establish SLO and buy in SLA - Part 2(PM)
-- Review application and infra., backup policies in terms of systems to backup and retaintion policies
+- Review application and infra., backup policies in terms of systems to backup and retention policies
 
 **SRE:**
 - Runbooks for common scenarios
