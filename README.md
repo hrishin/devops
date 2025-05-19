@@ -13,7 +13,7 @@
 
 ---
 
-## My Approach: 4-Phase Plan
+## Approach: 4-Phase Plan
 
 ```mermaid
 graph TD
