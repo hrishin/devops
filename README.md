@@ -76,7 +76,7 @@ graph TD
     - Dependent services provisioning
 - Associated lifecycle automation
 
-**CI/CD Pipeline:**
+**CI Pipeline:**
 ```mermaid
 flowchart LR
     commit[Code Commit] --> build[Build & Test]
@@ -92,6 +92,7 @@ flowchart LR
     class package green
 ```
 
+**CD Pipeline:**
 ```mermaid
 flowchart LR
     tag[commit version tag] --> build
